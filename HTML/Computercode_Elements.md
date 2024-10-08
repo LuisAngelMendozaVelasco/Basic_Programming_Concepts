@@ -1,6 +1,6 @@
 # Computercode Elements
 
-## - Keyboard input formatting using the `<kbd>` element -
+## Keyboard input formatting using the `<kbd>` element
 
 Code:
 
@@ -19,18 +19,9 @@ Code:
 
 Output:
 
-<!DOCTYPE html>
-<html>
-    <body>
-<h2>The kbd Element</h2>
+[Click here!](./Computercode_Elements/Example_1.html)
 
-<p>The kbd element is used to define keyboard input:</p>
-
-<p>Save the document by pressing <kbd>Ctrl + S</kbd></p>
-    </body>
-</html>
-
-## - Computer output formatting using the `<samp>` element -
+## Computer output formatting using the `<samp>` element
 
 Code:
 
@@ -49,28 +40,14 @@ Code:
             Press F1 to continue
         </samp></p>
     </body>
-</html>   
+</html>     
 ```
 
 Output:
 
-<!DOCTYPE html>
-<html>
-    <body>
-<h2>The samp Element</h2>
+[Click here!](./Computercode_Elements/Example_2.html)
 
-<p>The samp element is used to define sample output from a computer program.</p>
-
-<p>Message from my computer:</p>
-<p><samp>
-    File not found.
-    <br>
-    Press F1 to continue
-</samp></p>
-    </body>
-</html>
-
-## - Programming code formatting using the `<code>` element -
+## Programming code formatting using the `<code>` element
 
 Code:
 
@@ -92,25 +69,14 @@ Code:
 
 Output:
 
-<!DOCTYPE html>
-<html>
-    <body>
-<h2>The code Element</h2>
-<p>Programming code example:</p>
+[Click here!](./Computercode_Elements/Example_3.html)
 
-<code>
-    x = 5;
-    y = 6;
-    z = x + y;
-</code>
-    </body>
-</html>
-
-## - Programming code formatting preserving whitespace and line-breaks -
+## Programming code formatting preserving whitespace and line-breaks
 
 Code:
 
 ```html
+<!DOCTYPE html>
 <html>
     <head>
         <style>
@@ -134,31 +100,9 @@ Code:
 
 Output:
 
-<html>
-    <head>
-        <style>
-            #block1 {
-                pre, code {white-space: pre-line;}
-            }
-        </style>
-    </head>
-    <body>
-<div id="block1">
-<p>The code element does not preserve whitespace and line-breaks.</p>
-<p>To fix this, you can put the code element inside a pre element:</p>
+[Click here!](./Computercode_Elements/Example_4.html)
 
-<pre>
-    <code>
-        x = 5;
-        y = 6;
-        z = x + y;
-    </code>
-</pre>
-</div>
-    </body>
-</html>
-
-## - Variable formatting using the `<var>` element -
+## Variable formatting using the `<var>` element
 
 Code:
 
@@ -170,16 +114,9 @@ Code:
 
         <p>The area of a triangle is: 1/2 x <var>b</var> x <var>h</var>, where <var>b</var> is the base, and <var>h</var> is the vertical height.</p>
     </body>
-</html>
+</html>   
 ```
 
 Output:
 
-<!DOCTYPE html>
-<html>
-    <body>
-<h2>The var Element</h2>
-
-<p>The area of a triangle is: 1/2 x <var>b</var> x <var>h</var>, where <var>b</var> is the base, and <var>h</var> is the vertical height.</p>
-    </body>
-</html>
+[Click here!](./Computercode_Elements/Example_5.html)

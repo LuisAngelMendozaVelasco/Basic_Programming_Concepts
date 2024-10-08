@@ -2,9 +2,9 @@
 
 Examples of basic concepts from different programming languages.
 
-- [C++](./C++/README.md)
+- [C++](./Cpp/README.md)
 
-- [C#](./C#/README.md)
+- [C#](./Cs/README.md)
 
 - [Java](./Java/README.md)
 

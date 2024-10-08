@@ -1,6 +1,6 @@
 # Paragraphs
 
-## - HTML paragraphs -
+## HTML paragraphs
 
 Code:
 
@@ -17,16 +17,9 @@ Code:
 
 Output:
 
-<!DOCTYPE html>
-<html>
-    <body>
-        <p>This is a paragraph.</p>
-        <p>This is a paragraph.</p>
-        <p>This is a paragraph.</p>
-    </body>
-</html>
+[Click here!](./Paragraphs/Example_1.html)
 
-## - More HTML paragraphs -
+## More HTML paragraphs
 
 Code:
 
@@ -57,30 +50,9 @@ Code:
 
 Output:
 
-<!DOCTYPE html>
-<html>
-    <body>
-        <p>
-            This paragraph
-            contains a lot of lines
-            in the source code,
-            but the browser 
-            ignores it.
-        </p>
-        <p>
-            This paragraph
-            contains      a lot of spaces
-            in the source     code,
-            but the    browser 
-            ignores it.
-        </p>
-        <p>
-            The number of lines in a paragraph depends on the size of the browser window. If you resize the browser window, the number of lines in this paragraph will change.
-        </p>
-    </body>
-</html>
+[Click here!](./Paragraphs/Example_2.html)
 
-## - The use of line breaks in HTML -
+## The use of line breaks in HTML
 
 Code:
 
@@ -95,14 +67,9 @@ Code:
 
 Output:
 
-<!DOCTYPE html>
-<html>
-    <body>
-        <p>This is<br>a paragraph<br>with line breaks.</p>
-    </body>
-</html>
+[Click here!](./Paragraphs/Example_3.html)
 
-## - Poem problems (some problems with HTML formatting) -
+## Poem problems (some problems with HTML formatting)
 
 Code:
 
@@ -126,23 +93,9 @@ Code:
 
 Output:
 
-<!DOCTYPE html>
-<html>
-    <body>
-        <p>In HTML, spaces and new lines are ignored:</p>
-        <p>
-My Bonnie lies over the ocean.
+[Click here!](./Paragraphs/Example_4.html)
 
-My Bonnie lies over the sea.
-
-My Bonnie lies over the ocean.
-
-Oh, bring back my Bonnie to me.
-        </p>
-    </body>
-</html>
-
-## - How to control the line breaks and spaces with the `<pre>` tag -
+## How to control the line breaks and spaces with the `<pre>` tag
 
 Code:
 
@@ -171,23 +124,4 @@ Code:
 
 Output:
 
-<!DOCTYPE html>
-<html>
-    <head>
-        <style>
-            pre {white-space: pre-line;}
-        </style>
-    </head>
-    <body>
-        <p>The pre tag preserves both spaces and line breaks:</p>
-        <pre>
-My Bonnie lies over the ocean.
-
-My Bonnie lies over the sea.
-
-My Bonnie lies over the ocean.
-
-Oh, bring back my Bonnie to me.
-        </pre>
-    </body>
-</html>
+[Click here!](./Paragraphs/Example_5.html)
