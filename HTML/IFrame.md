@@ -1,0 +1,29 @@
+# IFrame
+
+## - Inline frame (a frame inside an HTML page) -
+
+Code:
+
+```html
+<!DOCTYPE html>
+<html>
+    <body>
+        <h2>HTML Iframes</h2>
+        <p>An iframe is used to display a web page within a web page:</p>
+
+        <iframe src="./demo_iframe.html"></iframe>
+    </body>
+</html>
+```
+
+Output:
+
+<!DOCTYPE html>
+<html>
+    <body>
+<h2>HTML Iframes</h2>
+<p>An iframe is used to display a web page within a web page:</p>
+
+<iframe src="./demo_iframe.html"></iframe>
+    </body>
+</html>
