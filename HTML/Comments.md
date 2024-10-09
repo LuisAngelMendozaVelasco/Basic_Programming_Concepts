@@ -1,6 +1,6 @@
 # Comments
 
-## - Hidden comments -
+## Hidden comments
 
 Code:
 
@@ -19,7 +19,7 @@ Output:
 
 [Click here!](./Comments/Example_1.html)
 
-## - Conditional comments -
+## Conditional comments
 
 Code:
 
@@ -40,7 +40,7 @@ Output:
 
 [Click here!](./Comments/Example_2.html)
 
-## - Comments for debugging -
+## Comments for debugging
 
 Code:
 

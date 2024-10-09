@@ -5,6 +5,7 @@
 Code:
 
 ```html
+<!DOCTYPE html>
 <html>
     <body style="background-color:powderblue">
         <h1>This page is displayed in an iframe</h1>

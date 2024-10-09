@@ -97,6 +97,7 @@ Output:
 Code:
 
 ```html
+<!DOCTYPE html>
 <html>
     <body>
         <h1>About W3Schools</h1>

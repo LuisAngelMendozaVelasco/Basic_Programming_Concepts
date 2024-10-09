@@ -103,7 +103,7 @@ Output:
 
 [Click here!](./Form_Elements/Example_4.html)
 
-## Using the <datalist> Element
+## Using the `<datalist>` Element
 
 Code:
 
@@ -136,7 +136,7 @@ Output:
 
 [Click here!](./Form_Elements/Example_5.html)
 
-## Using the <output> Element
+## Using the `<output>` Element
 
 Code:
 

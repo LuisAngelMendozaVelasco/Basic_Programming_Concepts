@@ -90,24 +90,10 @@ int main() {
 Output:
 
 ```text
-
-```
-
-## Combine text and a variable on print
-
-Code:
-
-```cpp
 15
 ```
 
-Output:
-
-```text
-
-```
-
-## Add a variable to another variable
+## Combine text and a variable on print
 
 Code:
 
@@ -130,7 +116,7 @@ Output:
 I am 29 years old.
 ```
 
-## Declare many variables of the same type with a comma-separated list
+## Add a variable to another variable
 
 Code:
 
@@ -155,7 +141,7 @@ Output:
 11
 ```
 
-## Identifiers
+## Declare many variables of the same type with a comma-separated list
 
 Code:
 
@@ -176,4 +162,33 @@ Output:
 
 ```text
 61
+```
+
+## Identifiers
+
+Code:
+
+```cpp
+#include <iostream>
+using namespace std;
+
+int main() {
+    // Good variable name
+    int minutesPerHour = 60;
+    
+    // OK, but not so easy to understand what m actually is
+    int m = 60;
+    
+    cout << minutesPerHour << "\n";
+    cout << m;
+    
+    return 0;
+}
+```
+
+Output:
+
+```text
+60
+60
 ```

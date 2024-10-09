@@ -1,0 +1,136 @@
+# How To / Where To
+
+## External CSS
+
+Code:
+
+```css
+body {background-color: lightblue;}
+
+h1 {color: navy;
+    margin-left: 20px;}
+```
+
+```html
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="stylesheet" href="./mystyle.css">
+    </head>
+    <body>
+        <h1>This is a heading</h1>
+        <p>This is a paragraph.</p>
+    </body>
+</html>
+```
+
+Output:
+
+[Click here!](./How_To-Where_To/Example_1.html)
+
+## Internal CSS
+
+Code:
+
+```html
+<!DOCTYPE html>
+<html>
+    <head>
+        <style>
+            body {background-color: linen;}
+
+            h1 {color: maroon;
+                margin-left: 40px;} 
+        </style>
+    </head>
+    <body>
+        <h1>This is a heading</h1>
+        <p>This is a paragraph.</p>
+    </body>
+</html>
+```
+
+Output:
+
+[Click here!](./How_To-Where_To/Example_2.html)
+
+## Inline CSS
+
+Code:
+
+```html
+<!DOCTYPE html>
+<html>
+    <body>
+        <h1 style="color:blue;text-align:center;">This is a heading</h1>
+        <p style="color:red;">This is a paragraph.</p>
+    </body>
+</html>
+```
+
+Output:
+
+[Click here!](./How_To-Where_To/Example_3.html)
+
+## Multiple style sheets
+
+Code:
+
+```css
+body {background-color: lightblue;}
+
+h1 {color: navy;
+    margin-left: 20px;}
+```
+
+```html
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="stylesheet" type="text/css" href="./mystyle.css">
+        <style>
+            h1 {color: orange;}
+        </style>
+    </head>
+    <body>
+        <h1>This is a heading</h1>
+        <p>The style of this document is a combination of an external stylesheet, and internal style</p>
+    </body>
+</html>
+```
+
+Output:
+
+[Click here!](./How_To-Where_To/Example_4.html)
+
+## Cascading order
+
+Code:
+
+```css
+body {background-color: lightblue;}
+
+h1 {color: navy;
+    margin-left: 20px;}
+```
+
+```html
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="stylesheet" type="text/css" href="./mystyle.css">
+        <style>
+            body {background-color: linen;}
+        </style>
+    </head>
+    <body style="background-color: lavender">
+        <h1>Multiple Styles Will Cascade into One</h1>
+        <p>Here, the background color of the page is set with inline CSS, and also with an internal CSS, and also with an external CSS.</p>
+        <p>Try experimenting by removing styles to see how the cascading stylesheets work (try removing the inline CSS first, then the internal, then the external).</p>
+    </body>
+</html>
+```
+
+Output:
+
+[Click here!](./How_To-Where_To/Example_5.html)
