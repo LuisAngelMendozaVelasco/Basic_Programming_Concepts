@@ -15,3 +15,5 @@ Examples of basic concepts from different programming languages.
 - [CSS](./CSS/README.md)
 
 - [JavaScript](./JavaScript/README.md)
+
+- [PHP](./PHP/README.md)
