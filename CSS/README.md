@@ -1,4 +1,4 @@
-# Java Examples
+# CSS Examples
 
 - [Syntax](./Syntax.md)
 

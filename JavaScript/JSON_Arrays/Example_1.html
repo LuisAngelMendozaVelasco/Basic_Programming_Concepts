@@ -1,0 +1,19 @@
+<!---------------------------->
+<!-- Accessing array values -->
+<!---------------------------->
+
+<!DOCTYPE html>
+<html>
+    <body>
+        <h2>Access Array Values</h2>
+        <p id="demo"></p>
+
+        <script>
+            const myJSON = '{"name":"John", "age":30, "cars":["Ford", "BMW", "Fiat"]}';
+            const myObj = JSON.parse(myJSON);
+            
+            console.log(myObj);
+            document.getElementById("demo").innerHTML = myObj.cars[0];
+        </script>
+    </body>
+</html>
