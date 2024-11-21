@@ -1,4 +1,4 @@
-# Tutorials for Programming Languages
+# Basic Programming Concepts
 
 Examples of basic concepts from different programming languages.
 
@@ -8,14 +8,14 @@ Examples of basic concepts from different programming languages.
 
 - [Java](./Java/README.md)
 
-- [Bash](./Bash/README.md)
-
-- [HTML](./HTML/README.md)
-
-- [CSS](./CSS/README.md)
-
 - [JavaScript](./JavaScript/README.md)
 
 - [PHP](./PHP/README.md)
 
 - [SQL](./SQL/README.md)
+
+- [HTML](./HTML/README.md)
+
+- [CSS](./CSS/README.md)
+
+- [Bash](./Bash/README.md)
