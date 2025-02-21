@@ -8,6 +8,8 @@ Examples of basic concepts from different programming languages.
 
 - [Java](./Java/README.md)
 
+- [Go](./Go/README.md)
+
 - [JavaScript](./JavaScript/README.md)
 
 - [PHP](./PHP/README.md)
